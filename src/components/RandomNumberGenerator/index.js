@@ -9,7 +9,7 @@ class RandomNumberGenerator extends Component {
   state = {count: 0}
 
   randomgenerate = () => {
-    const Random = Math.ceil(Math.Random * 100)
+    const Random = Math.ceil(Math.Random()* 100)
     this.setState({count: Random})
   }
 
