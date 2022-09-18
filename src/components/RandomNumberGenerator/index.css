@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.mainbg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerbg {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 50vh;
+}
+.h {
+  color: blue;
+  font-size: 30px;
+}
+.p {
+  color: grey;
+  font-size: 20px;
+}
+
+.butt {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+}
